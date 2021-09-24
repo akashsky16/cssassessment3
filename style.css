@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(43, 42, 42);
+}
+
+.welcome{
+    border: 4px red solid;
+    box-shadow: rgb(97, 5, 150) 8px 8px;
+    background-color: white;
+    width: 40%;
+    margin: auto;
+    height: 80px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(247, 39, 39);
+    text-shadow: 2px 3px 4px rgb(247, 39, 39);
+}
+
+.container{
+    border: 3px green solid;
+    height: 620px;
+    position: relative;
+    
+}
+
+.box{
+    border: 3px red solid;
+    box-shadow: rgb(97, 5, 150) 8px 8px;
+    background-color: white;
+    display: block;
+    text-align: center;
+}
+
+.box1{
+    
+    position: absolute;
+    width: 25%;
+    height: 200px;
+    top: 10px;
+    left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(150, 18, 18);
+    text-shadow: 2px 3px 4px rgb(150, 18, 18);
+}
+
+.box2{
+    
+    position: absolute;
+    width:25%;
+    height: 200px;
+    top: 10px;
+    right: 10px;
+}
+
+img{
+    width: 60%;
+    height: 80%;
+    margin-top: 20px;
+}
+
+.stick{
+    border: 3px red solid;
+    box-shadow: rgb(97, 5, 150) 8px 8px;
+    border-radius: 25px;
+    position: fixed;
+    width: 40%;
+    height: 100px;
+    top: 450px;
+    left: 400px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(247, 12, 12);
+    text-shadow: 2px 3px 4px rgb(247, 12, 12);
+    background-color: greenyellow;
+    text-align: center;
+}
+
+span{
+    display: inline-block;
+}
+
+.para{
+    width: 40%;
+    padding: 10px;
+}
+
+.box3{
+    position: absolute;
+    width:25%;
+    height: 200px;
+    bottom: 10px;
+    left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(150, 18, 18);
+    text-shadow: 2px 3px 4px rgb(150, 18, 18);
+}
+
+.box4{
+    position: absolute;
+    width:25%;
+    height: 200px;
+    bottom: 10px;
+    right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(150, 18, 18);
+    text-shadow: 2px 3px 4px rgb(150, 18, 18);
+}
+
+.container2{
+    
+    border: 3px purple solid;
+    background-color: green;
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.block{
+    border: 2px grey solid;
+    background-color: rgb(197, 197, 7);
+    text-align: center;
+    display: inline-block;
+}
+
+.fruits{
+    width: 49%;
+    height: 200px;
+}
+
+.vegetables{
+    width: 49%;
+    height: 200px;
+}
+
+.other{
+    width: 99%;
+    height: 150px;
+}
